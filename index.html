@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <form action="">
+     <h4>1.Contact Information</h4>
+       <p>we'll use this emali to send you details & updates about you order.</p>
+       <label for="email"></label>
+       <input id="email" placeholder="Email address" size="43"><br><br>
+    
+       <input type="checkbox">
+       <label>Keep me up to date on news and exclusiv offers</label>
+  
+     <h4>2.Shipping Address</h4>
+     <p>Enter the physical address where you want us to deliver you order.</p>
+      <input placeholder="First Name" size="20">
+      <input placeholder="Surname" size="20"><br><br>
+      <input placeholder="Company name (optional)" size="43"><br><br>
+      <input placeholder="Street address" size="43"><br><br>
+      <input placeholder="Apartment,suite,etc. (optional)" size="43"><br><br>
+      
+      <label for="country">Choose a Country:</label><br>
+       <select id="country">
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Australia"> Australia</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Russia">Russia</option>
+      </select>
+
+      <input placeholder="City" size="29"><br><br>
+
+      <label for="Product">Choose a Product:</label><br>
+    <select name="Product" id="Product">
+      <optgroup label="Swedish Cars">
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+     </optgroup>
+     <optgroup label="German Cars">
+       <option value="mercedes">Mercedes</option>
+       <option value="audi">Audi</option>
+     </optgroup>
+   </select>
+    
+   <input placeholder="Postal code" size="31"><br><br>
+
+   <input type="Checkbox">
+   <label>Use same address forbilling</label>
+
+   
+  <h4>3.Shipping Option</h4>
+  select your shipping method below.<br><br>
+
+ 
+
+    <input name="Strip" type="radio" id="Strip"> <b><label for="Strip">In-store Pickup</label></b><br>
+    pickup your order fromour store---------------  Free
+    <br>
+    <input name="Strip" type="radio" id="Twgang"> <b><label for="Twgang">Shipping option Name</label></b><br>
+    Secondary text-----------------------------------$2.00
+    <br>
+    
+    <input name="Strip" type="radio" id="Twgang"> <b><label for="Twgang">Shipping option Name</label></b><br>
+    Secondary text-----------------------------------$5.00
+   <br>
+
+    <input type="checkbox">
+    Add order notes?
+
+
+    <h4>4.Payment Method</h4>
+    <p>Slect a payment method below</p>
+
+    <input type="image" src="image/Mastercard.png" alt="Submit" width="50" height="48">
+    <input type="image" src="image/png-transparent-paypal-logo-text-line-blue.png" alt="Submit" width="48" height="48">
+    <input type="image" src="image/Visa.png" alt="Submit" width="48" height="48">
+    <br><br>
+    <label for="datemin">Enter a date :</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+    <label for="quantity">Quantity (between 1 and 10):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10">
+  <br><br>
+   <label for="file">select Your personal Information File</label>
+   <input type="file" id="file">
+  <br><br>
+  
+  <input type="button" onclick="alert('Hello World!')" value="Place Order" width="100px">
+  <br><br>
+
+  <input type="image" src="image/submit1.png" alt="submit" width="100px" >
+
+
+
+    </form>
+</body>
+
+
